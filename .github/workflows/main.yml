@@ -31,8 +31,7 @@ jobs:
          java-version: '8'
          distribution: 'zulu'
          java-package: jdk+fx
-         cache: gradle
-         
+                
       
       - name: maven
         run: |
