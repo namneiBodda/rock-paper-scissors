@@ -29,6 +29,9 @@ jobs:
         uses: actions/setup-java@v2
         with:
          java-version: '8'
+         distribution: 'zulu'
+         java-package: jdk+fx
+         cache: gradle
          
       
       - name: maven
